@@ -1,13 +1,7 @@
-                                        CODE EXPLANATION
-                                            by Abeeek
-The code is a simple console-based program that simulates a menu ordering system. It displays a list of food and drink options and allows the user to input a menu item number to add it to their order. The program uses an array of structures to store the menu data and a switch statement to handle the user's input. After selecting an item, the user can choose to continue ordering or exit the program. The program also keeps track of the total price of the order and displays it when the user finishes their order.
+This is a menu-based program for a food ordering system, written in C++. The program uses a class called "items" to manage a list of items, their prices, and the quantity ordered by the user. The program displays a menu of food and drink items and allows the user to select the items they wish to order. After each selection, the program prompts the user to continue ordering or to finish their order.
 
-The getitem() function is used to get the user's input for the menu item and adds it to the order list. The displaysum() function is used to display the total price of the order. The remove() function is not implemented and may have been intended to allow the user to remove an item from their order.
+The program keeps track of the items ordered by the user, their prices, and the total cost of the order. The user can choose to remove an item from their order, display the list of items ordered, or display the total cost of the order.
 
-There are a few issues with the code:
+The program uses a simple struct to store the menu items and their prices, and it uses a switch statement to handle user input. The program uses a "goto" statement to loop back to the menu after each item is ordered.
 
-The count variable is never incremented, so the displaysum() function always displays a total price of 0.
-The itemname array is declared as a string array, but the name variable in the displaysum() function is declared as a char. This will cause a type mismatch error when trying to access the itemname array.
-The remove() function is not implemented and may cause confusion for the user if they are presented with an option to remove an item that cannot be removed.
-The use of goto statements is generally discouraged as it can make the code harder to read and maintain. In this case, a loop or a function call could be used instead.
-The datamenu array is declared as an array of structures, but it is not clear why this is necessary as the menu and harga members could be declared directly in the getitem() function.
+Overall, this program provides a simple and user-friendly way for customers to order food and drinks, and it demonstrates basic concepts of object-oriented programming in C++. However, the use of "goto" statements is generally discouraged as they can make code difficult to understand and maintain.
