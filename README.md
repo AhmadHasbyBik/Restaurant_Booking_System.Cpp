@@ -1,6 +1,6 @@
                                          CODE EXPLANATION
                                             by Abeeek
-This is a menu-based program for a food ordering system, written in C++. The program uses a class called "items" to manage a list of items, their prices, and the quantity ordered by the user. The program displays a menu of food and drink items and allows the user to select the items they wish to order. After each selection, the program prompts the user to continue ordering or to finish their order.
+This is a menu-based program for a food ordering system, written in typeC++. The program uses a class called "items" to manage a list of items, their prices, and the quantity ordered by the user. The program displays a menu of food and drink items and allows the user to select the items they wish to order. After each selection, the program prompts the user to continue ordering or to finish their order.
 
 The program keeps track of the items ordered by the user, their prices, and the total cost of the order. The user can choose to remove an item from their order, display the list of items ordered, or display the total cost of the order.
 
