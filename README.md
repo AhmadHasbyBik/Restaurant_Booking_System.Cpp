@@ -6,4 +6,4 @@ The program keeps track of the items ordered by the user, their prices, and the 
 
 The program uses a simple struct to store the menu items and their prices, and it uses a switch statement to handle user input. The program uses a "goto" statement to loop back to the menu after each item is ordered.
 
-Overall, this program provides a simple and user-friendly way for customers to order food and drinks, and it demonstrates basic concepts of object-oriented programming in C++. However, the use of "goto" statements is generally discouraged as they can make code difficult to understand and maintain.
+Overall, this program provides a simple and user-friendly way for customers to order food and drinks, and it demonstrates basic concepts of object-oriented programming in type C++. However, the use of "goto" statements is generally discouraged as they can make code difficult to understand and maintain.
